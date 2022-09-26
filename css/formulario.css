@@ -1,0 +1,25 @@
+body {
+    background: url(../image/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo{
+text-align: center;
+
+}
+
+.charla{
+    
+    
+}

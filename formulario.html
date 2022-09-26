@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <link href="css/formulario.css"
+  rel="stylesheet" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<body style="background-color: aqua;">
-    
+<body>
+  <div class="logo">
+    <img src="image/logo.png" alt="logo"  width="100" height="100">
+    <h1>EUSA Campus Universitario de Cámara de Comercio de Sevilla</h1>
+  </div>
+  
+  <h2>MATRICULACION A GRADO SUPERIOR DAW</h2>
+    <div class="formulario">
     <form action="ejemplo.php" method="get">
         <p><b>Nombre: </b><input type="text" name="nombre" size="40"></p>
         <p><b>Apellidos</b> <input type="text" name="Apellidos" size="40"></p>
         <p><b>Curso</b> <input type="text" name="Apellidos" size="40"></p>
         <p><b>Año de nacimiento:</b> <input type="number" name="nacimiento" min="1900"></p>
         <p><b>Sexo:</b>
-          <input type="radio" name="hm" value="h"> <b>Hombre</b>
-          <input type="radio" name="hm" value="m"> <b>Mujer</b>
+          <input type="radio" name="hombre" value="h"> <b>Hombre</b>
+          <input type="radio" name="mujer" value="m"> <b>Mujer</b>
         </p>
         <p>
           <input type="submit" value="Enviar">
           <input type="reset" value="Borrar">
         </p>
       </form>
+    </div>
+    <div>
+      <img src="image/taller1.jpg" alt="logo"  width="300" height="300">
+      <p class="charla"><b>Charla a los estudiantes</b></p>
+    </div>
 </body>
 </html>
